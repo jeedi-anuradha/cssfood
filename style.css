@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Karma", serif;
+
+}
+.header{
+    height:4rem;
+    width: 100vw;
+    /* border:2px solid; */
+    background-color: #fff;
+    position: sticky;
+    top:0px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.main{
+    display: flex;
+    margin: 30px;
+}
+.section{
+    vertical-align: top;
+    width: 300px;
+    /* border: 2px solid; */
+    margin: 10px;
+    text-align-last: center;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.item h1{
+    font-size: 24px;
+    font-weight: 400;
+}
+.item{
+    padding: 10px;
+}
